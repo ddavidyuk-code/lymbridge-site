@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lymbridge Logistics — міжнародні перевезення</title>
+<meta name="theme-color" content="#001433">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lymbridge Logistics — International freight forwarding">
+<meta property="og:description" content="Sea, air, rail and road freight. China → Gdańsk, warehousing and transloading in Gdańsk, customs clearance.">
+<link rel="alternate" hreflang="uk" href="#uk"><link rel="alternate" hreflang="en" href="#en"><link rel="alternate" hreflang="pl" href="#pl">
+<meta name="description" content="Морські, авіа, залізничні та автоперевезення. Китай → Гданськ, склад і перетарка в Гданську, митне оформлення.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201400%201400%22%3E%3Crect%20width%3D%221400%22%20height%3D%221400%22%20rx%3D%22300%22%20fill%3D%22%23fff%22/%3E%3Cg%20transform%3D%22translate%2825%20420%29%22%3E%3Crect%20x%3D%2249%22%20y%3D%22320%22%20width%3D%2254%22%20height%3D%22155%22%20rx%3D%2227%22%20fill%3D%22%23BC133E%22/%3E%3Crect%20x%3D%22205%22%20y%3D%22204%22%20width%3D%2254%22%20height%3D%22271%22%20rx%3D%2227%22%20fill%3D%22%23BC133E%22/%3E%3Crect%20x%3D%22361%22%20y%3D%2256%22%20width%3D%2254%22%20height%3D%22419%22%20rx%3D%2227%22%20fill%3D%22%23BC133E%22/%3E%3Crect%20x%3D%22521%22%20y%3D%22204%22%20width%3D%2254%22%20height%3D%22271%22%20rx%3D%2227%22%20fill%3D%22%23002664%22/%3E%3Crect%20x%3D%22677%22%20y%3D%22320%22%20width%3D%2254%22%20height%3D%22155%22%20rx%3D%2227%22%20fill%3D%22%23002664%22/%3E%3Crect%20x%3D%22833%22%20y%3D%22204%22%20width%3D%2254%22%20height%3D%22271%22%20rx%3D%2227%22%20fill%3D%22%23005BBB%22/%3E%3Crect%20x%3D%22994%22%20y%3D%2256%22%20width%3D%2254%22%20height%3D%22419%22%20rx%3D%2227%22%20fill%3D%22%23005BBB%22/%3E%3Crect%20x%3D%221151%22%20y%3D%22204%22%20width%3D%2254%22%20height%3D%22271%22%20rx%3D%2227%22%20fill%3D%22%23FFD500%22/%3E%3Crect%20x%3D%221307%22%20y%3D%22320%22%20width%3D%2254%22%20height%3D%22155%22%20rx%3D%2227%22%20fill%3D%22%23FFD500%22/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#060d1a; --bg2:#0a1528; --card:#0f1d35; --line:rgba(255,255,255,.08);
+  --text:#e9eef7; --muted:#93a3bd; --accent:#ffd500; --accent2:#bc133e; --blue:#1f7ae0;
+  --light:#f4f7fb; --ink:#0b1424; --ink-muted:#5a6b85;
+  --r:22px; --max:1240px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Manrope,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img,svg{display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+h1,h2,h3,.display{font-family:Unbounded,Manrope,sans-serif;font-weight:600;letter-spacing:-.02em;line-height:1.1}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.eyebrow::before{content:"";width:28px;height:2px;background:currentColor;border-radius:2px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:15px;transition:.25s;cursor:pointer;border:0;font-family:inherit}
+.btn-primary{background:linear-gradient(135deg,#ffd500,#ffbf00);color:#04131c;box-shadow:0 10px 30px -8px rgba(255,213,0,.6)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 40px -8px rgba(255,213,0,.75)}
+.btn-ghost{border:1px solid rgba(255,255,255,.2);color:#fff;background:rgba(255,255,255,.04);backdrop-filter:blur(8px)}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn svg{width:18px;height:18px}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:.3s}
+.nav.scrolled{background:rgba(6,13,26,.78);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;font-family:Unbounded;font-weight:700;font-size:20px;letter-spacing:-.01em}
+.logo-mark{width:46px;height:46px;border-radius:13px;background:#fff;display:grid;place-items:center;box-shadow:0 6px 20px -8px rgba(0,0,0,.6)}
+.logo-mark svg{width:34px;height:12px}
+.wm{font-family:Manrope;font-weight:800;font-size:19px;letter-spacing:.04em;line-height:1}
+.logo small{display:block;font-family:Manrope;font-size:10px;font-weight:600;letter-spacing:.42em;color:var(--muted);margin-top:5px}
+.menu{display:flex;gap:30px;font-size:15px;font-weight:600;color:#c7d2e4}
+.menu a:hover{color:#fff}
+.nav-right{display:flex;align-items:center;gap:14px}
+.lang{display:flex;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:999px;padding:4px}
+.lang button{background:none;border:0;color:var(--muted);font:700 12px Manrope;padding:7px 11px;border-radius:999px;cursor:pointer;letter-spacing:.05em}
+.lang button.on{background:#fff;color:var(--ink)}
+.nav .btn{padding:11px 20px;font-size:14px}
+.burger{display:none;background:none;border:0;color:#fff;cursor:pointer}
+
+/* HERO */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;padding:130px 0 80px;overflow:hidden;
+  background:radial-gradient(900px 600px at 80% 20%,rgba(0,91,187,.3),transparent 60%),radial-gradient(700px 500px at 10% 90%,rgba(255,213,0,.14),transparent 60%),var(--bg)}
+.hero-grid{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.09) 1px,transparent 1px);background-size:28px 28px;mask-image:radial-gradient(ellipse at 60% 40%,#000 30%,transparent 75%)}
+.hero-map{position:absolute;right:-8%;top:50%;transform:translateY(-50%);width:62%;max-width:900px;opacity:.95;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 45%);mask-image:linear-gradient(90deg,transparent 0%,#000 45%)}
+.route{fill:none;stroke-width:1.6;stroke-dasharray:6 8;animation:dash 30s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-1000}}
+.pulse{animation:pulse 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(4)}}
+.hero-content{position:relative;z-index:2;max-width:720px}
+.badge{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 8px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--line);font-size:14px;font-weight:600;color:#c7d2e4;margin-bottom:28px}
+.badge b{background:var(--accent2);color:#fff;padding:3px 10px;border-radius:999px;font-size:12px}
+.hero h1{font-size:clamp(30px,4vw,56px);margin-bottom:24px}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,#4da3ff,#ffd500);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:clamp(17px,1.5vw,20px);color:#b5c2d8;max-width:560px;margin-bottom:38px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero-stats{display:flex;gap:44px;margin-top:64px;flex-wrap:wrap}
+.hero-stats div{border-left:2px solid rgba(255,213,0,.5);padding-left:16px}
+.hero-stats b{display:block;font-family:Unbounded;font-size:26px;font-weight:600}
+.hero-stats span{font-size:14px;color:var(--muted)}
+.hero-stats b{white-space:nowrap}
+
+/* MARQUEE */
+.marquee{border-block:1px solid var(--line);background:var(--bg2);overflow:hidden;padding:20px 0}
+.marquee-track{display:flex;gap:48px;width:max-content;animation:mq 40s linear infinite}
+.marquee span{font-family:Unbounded;font-size:18px;color:#5f7290;white-space:nowrap;display:flex;align-items:center;gap:48px}
+.marquee span::after{content:"✦";color:var(--accent);font-size:12px}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* SECTIONS */
+section{padding:120px 0}
+.head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:56px;flex-wrap:wrap}
+.head h2{font-size:clamp(26px,3vw,42px);max-width:720px;margin-top:16px}
+.head p{color:var(--muted);max-width:420px;font-size:17px}
+
+/* SERVICES BENTO */
+.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(250px,auto);gap:18px}
+.svc{position:relative;border-radius:var(--r);padding:30px;background:linear-gradient(180deg,var(--card),#0b1730);border:1px solid var(--line);overflow:hidden;transition:.35s;display:flex;flex-direction:column}
+.svc:hover{transform:translateY(-4px);border-color:rgba(255,213,0,.4)}
+.svc::after{content:"";position:absolute;inset:auto -40% -60% auto;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(255,213,0,.18),transparent 70%);opacity:0;transition:.4s}
+.svc:hover::after{opacity:1}
+.svc .ic{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:rgba(255,213,0,.1);color:var(--accent);margin-bottom:auto}
+.svc .ic svg{width:28px;height:28px}
+.svc h3{font-size:18px;margin:26px 0 10px}
+.svc p{color:var(--muted);font-size:15px}
+.svc .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.svc .tags i{font-style:normal;font-size:12px;font-weight:700;padding:6px 11px;border-radius:999px;background:rgba(255,255,255,.06);color:#c7d2e4}
+.svc.big{grid-column:span 2;grid-row:span 2;background:linear-gradient(160deg,#0e2a4a 0%,#0b1730 55%),var(--card);padding:40px}
+.svc.big h3{font-size:28px}
+.svc.big p{font-size:17px;max-width:460px}
+.svc.big .ship{position:absolute;right:24px;top:70px;width:52%;opacity:.9}
+.svc.wide{grid-column:span 2}
+.svc .num{position:absolute;top:26px;right:28px;font-family:Unbounded;font-size:13px;color:#4b5d7a}
+
+/* CHINA ROUTE (light) */
+.light{background:var(--light);color:var(--ink)}
+.light .head p{color:var(--ink-muted)}
+.light .eyebrow{color:#005bbb}
+.timeline{display:grid;grid-template-columns:repeat(6,1fr);gap:0;position:relative;margin-top:20px}
+.timeline::before{content:"";position:absolute;top:31px;left:8%;right:8%;height:2px;background:repeating-linear-gradient(90deg,#005bbb 0 8px,transparent 8px 16px)}
+.step{text-align:center;padding:0 10px;position:relative}
+.step .dot{width:64px;height:64px;border-radius:50%;margin:0 auto 20px;display:grid;place-items:center;background:#fff;border:2px solid #d5dfec;font-family:Unbounded;font-weight:600;color:var(--ink);position:relative;z-index:1;transition:.3s}
+.step:hover .dot{background:var(--ink);color:#fff;border-color:var(--ink)}
+.step h4{font-size:16px;font-weight:800;margin-bottom:6px}
+.step p{font-size:14px;color:var(--ink-muted)}
+.perks{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:70px}
+.perk{background:#fff;border-radius:var(--r);padding:28px;border:1px solid #e3eaf3;box-shadow:0 20px 40px -30px rgba(11,20,36,.3)}
+.perk b{font-family:Unbounded;font-size:17px;display:block;margin-bottom:8px;font-weight:600}
+.perk p{color:var(--ink-muted);font-size:15px}
+.ports{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px}
+.ports span{padding:9px 16px;border-radius:999px;background:#fff;border:1px solid #dfe7f1;font-weight:700;font-size:14px}
+
+/* STATS */
+.stats{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);border-radius:28px;overflow:hidden;background:linear-gradient(135deg,#0d2240,#091428)}
+.stat{padding:44px 28px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{font-family:Unbounded;font-size:clamp(26px,2.6vw,38px);font-weight:600;display:block;background:linear-gradient(180deg,#fff,#9fb3d1);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat>span{color:var(--muted);font-size:15px}
+
+/* WHY */
+.why{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.why-list{display:grid;gap:14px}
+.why-item{display:flex;gap:20px;padding:24px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.02);transition:.3s}
+.why-item:hover{background:rgba(255,255,255,.05)}
+.why-item .n{flex:0 0 46px;height:46px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(255,213,0,.2),rgba(59,130,246,.2));color:var(--accent);font-family:Unbounded;font-size:14px}
+.why-item h4{font-size:18px;margin-bottom:4px}
+.why-item p{color:var(--muted);font-size:15px}
+.why-visual{position:sticky;top:110px;border-radius:28px;padding:40px;background:linear-gradient(160deg,#112b52,#0a1630);border:1px solid var(--line);overflow:hidden}
+.why-visual h3{font-size:28px;margin:16px 0 14px}
+.why-visual p{color:#b5c2d8}
+.quote-card{margin-top:30px;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;gap:16px;align-items:center}
+.quote-card .live{width:12px;height:12px;border-radius:50%;background:#2ee59d;box-shadow:0 0 0 6px rgba(46,229,157,.15);flex:0 0 12px}
+.quote-card b{font-size:15px}
+.quote-card small{display:block;color:var(--muted);font-size:13px}
+
+/* HUBS */
+.hubs{display:grid;grid-template-columns:1.2fr 1fr;gap:18px}
+.hub-main{border-radius:28px;padding:44px;background:linear-gradient(135deg,var(--accent2),#e2364f);color:#fff;position:relative;overflow:hidden;min-height:420px;display:flex;flex-direction:column;justify-content:flex-end}
+.hub-main .big{font-family:Unbounded;font-size:clamp(44px,5.6vw,80px);font-weight:700;line-height:1;letter-spacing:-.04em}
+.hub-main p{font-size:17px;font-weight:600;max-width:440px;margin-top:12px}
+.hub-main .cranes{position:absolute;top:30px;right:30px;width:46%;opacity:.25}
+.hub-list{display:grid;gap:18px}
+.hub-box{border-radius:22px;padding:28px;border:1px solid var(--line);background:var(--card)}
+.hub-box h4{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.06);font-weight:700;font-size:14px}
+.chips span.hl{background:rgba(255,213,0,.15);color:var(--accent)}
+.wh-services{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+.wh-services div{padding:20px;border-radius:18px;border:1px solid var(--line);font-weight:700;font-size:15px;display:flex;gap:12px;align-items:center}
+.wh-services div::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);flex:0 0 8px}
+
+/* PROCESS */
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:p}
+.proc{padding:32px;border-radius:var(--r);background:var(--card);border:1px solid var(--line);position:relative}
+.proc::before{counter-increment:p;content:"0" counter(p);font-family:Unbounded;font-size:44px;font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.25);display:block;margin-bottom:22px}
+.proc h4{font-size:19px;margin-bottom:8px}
+.proc p{color:var(--muted);font-size:15px}
+
+/* REVIEWS */
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rev{background:#fff;border-radius:var(--r);padding:32px;border:1px solid #e3eaf3;display:flex;flex-direction:column;gap:18px}
+.rev .stars{color:#ffb020;letter-spacing:3px}
+.rev h4{font-family:Unbounded;font-size:18px;font-weight:600}
+.rev p{color:var(--ink-muted);flex:1}
+.rev .who{display:flex;gap:12px;align-items:center;border-top:1px solid #edf1f6;padding-top:18px}
+.rev .av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-weight:800;color:#fff;background:linear-gradient(135deg,#005bbb,#1f7ae0)}
+.rev .who b{display:block;font-size:15px}
+.rev .who small{color:var(--ink-muted)}
+
+/* FAQ */
+.faq{display:grid;grid-template-columns:1fr 1.4fr;gap:60px}
+.faq-list details{border-bottom:1px solid var(--line);padding:24px 0}
+.faq-list summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font-size:19px;font-weight:700}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{content:"+";font-size:26px;line-height:1;color:var(--accent);transition:.3s}
+.faq-list details[open] summary::after{transform:rotate(45deg)}
+.faq-list details p{color:var(--muted);margin-top:12px;max-width:620px}
+
+/* CONTACT */
+.contact{display:grid;grid-template-columns:1fr 1.15fr;gap:24px;border-radius:32px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,#0d2240,#08142a)}
+.contact-info{padding:52px}
+.contact-info h2{font-size:clamp(24px,2.6vw,36px);margin:16px 0 18px}
+.contact-info>p{color:#b5c2d8;margin-bottom:36px}
+.ci{display:flex;gap:16px;align-items:center;padding:16px 0;border-top:1px solid var(--line)}
+.ci .ic{width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.06);display:grid;place-items:center;color:var(--accent);flex:0 0 44px}
+.ci .ic svg{width:20px;height:20px}
+.ci small{display:block;color:var(--muted);font-size:13px}
+.ci b{font-size:16px}
+.socials{display:flex;gap:10px;margin-top:26px}
+.socials a{width:44px;height:44px;border-radius:12px;border:1px solid var(--line);display:grid;place-items:center;transition:.2s}
+.socials a:hover{background:var(--accent);color:var(--ink)}
+.socials svg{width:18px;height:18px}
+form{background:#fff;color:var(--ink);padding:44px;margin:14px;border-radius:24px;display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start}
+form h3{grid-column:1/-1;font-size:24px;margin-bottom:6px}
+form .full{grid-column:1/-1}
+.modes{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.modes label{cursor:pointer}
+.modes input{display:none}
+.modes span{display:inline-block;padding:10px 16px;border-radius:999px;border:1.5px solid #dbe3ee;font-weight:700;font-size:14px;transition:.2s}
+.modes input:checked+span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.field label{display:block;font-size:13px;font-weight:700;color:var(--ink-muted);margin-bottom:6px}
+.field input,.field textarea{width:100%;font:500 15px Manrope;padding:14px 16px;border-radius:14px;border:1.5px solid #dbe3ee;background:#f8fafd;transition:.2s;color:var(--ink)}
+.field input:focus,.field textarea:focus{outline:0;border-color:#005bbb;background:#fff}
+.field textarea{min-height:110px;resize:vertical}
+form .btn{justify-content:center;grid-column:1/-1;margin-top:6px}
+form .note{grid-column:1/-1;font-size:13px;color:var(--ink-muted);text-align:center}
+
+/* FOOTER */
+footer{padding:70px 0 40px;border-top:1px solid var(--line);margin-top:120px}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+.foot p{color:var(--muted);font-size:15px;margin-top:16px;max-width:320px}
+.foot h5{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+.foot ul{list-style:none;display:grid;gap:10px;font-size:15px}
+.foot ul a:hover{color:var(--accent)}
+.copy{display:flex;justify-content:space-between;margin-top:56px;padding-top:26px;border-top:1px solid var(--line);color:#60728f;font-size:14px;flex-wrap:wrap;gap:10px}
+
+/* FLOAT CTA */
+.float{position:fixed;right:22px;bottom:22px;z-index:40;opacity:0;transform:translateY(20px);transition:.3s;pointer-events:none}
+.float.show{opacity:1;transform:none;pointer-events:auto}
+
+/* REVEAL */
+.rv{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+/* RESPONSIVE */
+@media (max-width:1080px){
+  .menu{display:none}
+  .burger{display:block}
+  .menu.open{display:flex;position:absolute;top:78px;left:0;right:0;flex-direction:column;gap:0;background:rgba(6,13,26,.97);border-bottom:1px solid var(--line);padding:10px 24px}
+  .menu.open a{padding:14px 0;border-bottom:1px solid var(--line)}
+  .bento{grid-template-columns:repeat(2,1fr)}
+  .stats{grid-template-columns:repeat(3,1fr)}
+  .stat:nth-child(3){border-right:0}
+  .stat:nth-child(n+4){border-top:1px solid var(--line)}
+  .why,.faq,.hubs,.contact{grid-template-columns:1fr}
+  .why-visual{position:relative;top:0}
+  .process{grid-template-columns:repeat(2,1fr)}
+  .reviews{grid-template-columns:1fr}
+  .timeline{grid-template-columns:repeat(3,1fr);row-gap:40px}
+  .timeline::before{display:none}
+  .wh-services{grid-template-columns:repeat(2,1fr)}
+  .foot{grid-template-columns:1fr 1fr}
+  .hero-map{opacity:.35;width:110%;right:-30%}
+}
+@media (max-width:640px){
+  .wm{font-size:15px}.logo{gap:9px}.logo-mark{width:40px;height:40px}.lang button{padding:6px 8px}.nav-right{gap:8px}.nav .wrap{padding:0 16px}
+  section{padding:80px 0}
+  .nav .btn{display:none}
+  .bento{grid-template-columns:1fr}
+  .svc.big,.svc.wide{grid-column:auto;grid-row:auto}
+  .svc.big .ship{position:relative;width:100%;right:auto;top:auto;margin-top:20px}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{border-right:0!important;border-top:1px solid var(--line)}
+  .stat:first-child{grid-column:1/-1;border-top:0}
+  .process,.perks{grid-template-columns:1fr}
+  .timeline{grid-template-columns:1fr 1fr}
+  form{grid-template-columns:1fr;padding:26px;margin:8px}
+  .contact-info{padding:30px}
+  .foot{grid-template-columns:1fr}
+  .hero-stats{gap:24px}
+  .wh-services{grid-template-columns:1fr}
+}
+</style>
+<style id="varC">
+:root{--bg:#001433;--bg2:#001a40;--card:rgba(255,255,255,.05);--line:rgba(255,255,255,.1);--muted:#9fb2d4;--accent:#ffd500}
+body{background:#001433}
+h1,h2,h3{text-transform:none}
+.nav.scrolled{background:rgba(0,20,51,.7)}
+.heroC{min-height:100vh;text-align:center;padding:150px 0 90px;background:#001433;align-items:center}
+.mesh{position:absolute;inset:0;overflow:hidden;filter:blur(90px);opacity:.9}
+.mesh i{position:absolute;border-radius:50%}
+.mesh .b1{width:640px;height:640px;background:#005bbb;top:-160px;left:-120px;animation:mv 18s ease-in-out infinite}
+.mesh .b2{width:520px;height:520px;background:#ffd500;opacity:.35;bottom:-200px;right:-80px;animation:mv 22s ease-in-out infinite reverse}
+.mesh .b3{width:420px;height:420px;background:#bc133e;opacity:.35;top:30%;right:20%;animation:mv 26s ease-in-out infinite}
+@keyframes mv{50%{transform:translate(80px,60px) scale(1.1)}}
+.heroC .hero-grid{mask-image:radial-gradient(ellipse at 50% 40%,#000 20%,transparent 70%)}
+.heroC-content{max-width:980px;margin:0 auto}
+.heroC .badge{margin-left:auto;margin-right:auto;background:rgba(255,255,255,.08);backdrop-filter:blur(10px)}
+.heroC h1{font-size:clamp(30px,4.3vw,64px);text-transform:uppercase;letter-spacing:-.03em;line-height:1.02}
+.heroC h1 em{background:none;-webkit-background-clip:initial;background-clip:initial;color:#ffd500}
+.heroC p.lead{margin:0 auto 38px;max-width:640px;color:#c5d3ec}
+.heroC .hero-cta{justify-content:center}
+.heroC .hero-stats{display:none}
+.modes4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:420px;text-align:left}
+.m4{padding:26px;border-radius:24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(16px);transition:.3s;display:flex;flex-direction:column;gap:6px}
+.m4:hover{background:rgba(255,255,255,.12);transform:translateY(-4px)}
+.m4 .mi{width:48px;height:48px;border-radius:14px;background:#ffd500;color:#001433;display:grid;place-items:center;margin-bottom:14px}
+.m4 .mi svg{width:26px;height:26px}
+.m4 b{font-family:Unbounded;font-weight:600;font-size:18px}
+.m4 small{color:#9fb2d4;font-size:14px;font-weight:600}
+.btn-primary{background:#ffd500;color:#001433}
+.marquee{background:#ffd500;border:0;padding:24px 0}
+.marquee span{color:#001433;font-weight:700}
+.marquee span::after{color:#bc133e}
+.svc{background:rgba(255,255,255,.04);backdrop-filter:blur(10px)}
+.svc.big{background:radial-gradient(600px 400px at 100% 0%,rgba(255,213,0,.18),transparent 60%),linear-gradient(160deg,#003a88,#001a40)}
+.svc .ic{background:#ffd500;color:#001433}
+.light{background:#ffffff}
+.stats{background:#ffd500;border:0}
+.stat{border-color:rgba(0,20,51,.15)!important}
+.stat b{background:none;-webkit-background-clip:initial;background-clip:initial;color:#001433}
+.stat>span{color:#3d4e6e}
+.why-visual{background:linear-gradient(160deg,#005bbb,#002664)}
+.why-item .n{background:#ffd500;color:#001433}
+.hub-main{background:linear-gradient(135deg,#005bbb,#002664)}
+.hub-box{background:rgba(255,255,255,.04)}
+.proc{background:rgba(255,255,255,.04)}
+.proc::before{-webkit-text-stroke:1px rgba(255,213,0,.6)}
+.contact{background:radial-gradient(600px 400px at 0% 0%,rgba(0,91,187,.5),transparent 60%),#001a40}
+form .btn-primary{background:#002664;color:#fff}
+.modes input:checked+span{background:#ffd500;color:#001433;border-color:#ffd500}
+@media (max-width:1080px){.modes4{grid-template-columns:repeat(2,1fr)}}
+.heroC .wrap{width:100%}
+@media (max-width:640px){.heroC h1{font-size:25px}.heroC{padding-top:120px}.modes4{grid-template-columns:1fr 1fr;gap:10px;margin-top:330px}.m4{padding:18px}.m4 .mi{width:40px;height:40px;margin-bottom:8px}.m4 b{font-size:15px}.m4 small{font-size:12px}.heroC .hero-cta .btn{width:100%;justify-content:center}}
+</style>
+</head>
+<body>
+<div id="pre" aria-hidden="true"><div class="pre-in"><div class="pre-bars"><i style="--h:.32;--c:#BC133E"></i><i style="--h:.62;--c:#BC133E"></i><i style="--h:1;--c:#BC133E"></i><i style="--h:.62;--c:#2a5bd0"></i><i style="--h:.32;--c:#2a5bd0"></i><i style="--h:.62;--c:#005BBB"></i><i style="--h:1;--c:#005BBB"></i><i style="--h:.62;--c:#FFD500"></i><i style="--h:.32;--c:#FFD500"></i></div><div class="pre-word">LYMBRIDGE</div><div class="pre-line"><b></b></div></div></div>
+<script>document.documentElement.classList.add('is-loading')</script>
+
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="logo">
+      <span class="logo-mark"><svg viewBox="30 40 1350 450" width="30" height="10" aria-hidden="true"><rect x="49" y="320" width="54" height="155" rx="27" fill="#BC133E"/><rect x="205" y="204" width="54" height="271" rx="27" fill="#BC133E"/><rect x="361" y="56" width="54" height="419" rx="27" fill="#BC133E"/><rect x="521" y="204" width="54" height="271" rx="27" fill="#002664"/><rect x="677" y="320" width="54" height="155" rx="27" fill="#002664"/><rect x="833" y="204" width="54" height="271" rx="27" fill="#005BBB"/><rect x="994" y="56" width="54" height="419" rx="27" fill="#005BBB"/><rect x="1151" y="204" width="54" height="271" rx="27" fill="#FFD500"/><rect x="1307" y="320" width="54" height="155" rx="27" fill="#FFD500"/></svg></span>
+      <span class="wm">LYMBRIDGE<small>LOGISTICS</small></span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#services" data-i="nav.services"></a>
+      <a href="#china" data-i="nav.sea"></a>
+      <a href="#hubs" data-i="nav.warehouse"></a>
+      <a href="#about" data-i="nav.about"></a>
+      <a href="#faq" data-i="nav.faq"></a>
+      <a href="#contact" data-i="nav.contact"></a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" id="lang">
+        <button data-l="uk">UA</button><button data-l="en">EN</button><button data-l="pl">PL</button>
+      </div>
+      <a href="#contact" class="btn btn-primary" data-i="cta.rate"></a>
+      <button class="burger" id="burger" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero heroC" id="top">
+  <div class="mesh"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
+  <div class="hero-grid"></div>
+  <div class="wrap">
+    <div class="hero-content heroC-content">
+      <div class="badge rv"><b>NVOCC</b><span data-i="hero.badge"></span></div>
+      <h1 class="rv" data-ih="hero.title"></h1>
+      <p class="lead rv" data-i="hero.lead"></p>
+      <div class="hero-cta rv">
+        <a href="#contact" class="btn btn-primary"><span data-i="cta.calc"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#services" class="btn btn-ghost" data-i="cta.services"></a>
+      </div>
+      <div class="hero-stats rv">
+        <div><b>10+</b><span data-i="hs.years"></span></div>
+        <div><b>3000+</b><span data-i="hs.cont"></span></div>
+        <div><b data-i="hs.min"></b><span data-i="hs.react"></span></div>
+      </div>
+    
+    </div>
+    <div class="modes4">
+      <a href="#china" class="m4 rv"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l2 3h14l2-3"/><path d="M5 17V9h14v8"/><path d="M9 9V5h6v4"/></svg></span><b data-i="m.sea"></b><small>FCL · LCL · HBL</small></a>
+      <a href="#services" class="m4 rv"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></span><b data-i="m.air"></b><small>Next Flight Out · DGR</small></a>
+      <a href="#services" class="m4 rv"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="13" rx="3"/><path d="M5 10h14M9 20l-2 2M15 20l2 2M9 16v4M15 16v4"/></svg></span><b data-i="m.rail"></b><small>20′ / 40′ · T1</small></a>
+      <a href="#services" class="m4 rv"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 6h14v10H1zM15 10h4l3 3v3h-7"/><circle cx="5.5" cy="18" r="2"/><circle cx="18.5" cy="18" r="2"/></svg></span><b data-i="m.road"></b><small>UA ⇄ PL ⇄ EU</small></a>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="mq"></div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv" data-i="svc.eyebrow"></span><h2 class="rv" data-i="svc.title"></h2></div>
+      <p class="rv" data-i="svc.sub"></p>
+    </div>
+    <div class="bento">
+      <a href="#china" class="svc big rv">
+        <span class="num">01</span>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l2 3h14l2-3"/><path d="M5 17V9h14v8"/><path d="M9 9V5h6v4"/><path d="M2 21c2 0 2-1 4-1s2 1 4 1 2-1 4-1 2 1 4 1 2-1 4-1"/></svg></div>
+        <h3 data-i="s1.t"></h3>
+        <p data-i="s1.d"></p>
+        <div class="tags"><i>FCL</i><i>LCL</i><i>EXW</i><i>HBL</i><i data-i="s1.tag"></i></div>
+        <svg class="ship" viewBox="0 0 400 180" fill="none">
+          <g opacity=".95">
+            <rect x="70" y="56" width="44" height="30" rx="2" fill="#ffd500"/><rect x="118" y="56" width="44" height="30" rx="2" fill="#1f7ae0"/><rect x="166" y="56" width="44" height="30" rx="2" fill="#bc133e"/><rect x="214" y="56" width="44" height="30" rx="2" fill="#ffd500"/>
+            <rect x="94" y="22" width="44" height="30" rx="2" fill="#bc133e"/><rect x="142" y="22" width="44" height="30" rx="2" fill="#ffd500"/><rect x="190" y="22" width="44" height="30" rx="2" fill="#1f7ae0"/>
+            <rect x="270" y="30" width="40" height="56" rx="3" fill="#e9eef7"/><rect x="278" y="40" width="24" height="8" rx="2" fill="#0b1730"/>
+            <path d="M30 90h340l-30 50H70z" fill="#1d3a66"/><path d="M30 90h340l-6 10H36z" fill="#e2364f"/>
+          </g>
+          <path d="M0 150c30 0 30-8 60-8s30 8 60 8 30-8 60-8 30 8 60 8 30-8 60-8 30 8 60 8" stroke="#ffd500" stroke-opacity=".5" stroke-width="2"/>
+          <path d="M0 166c30 0 30-8 60-8s30 8 60 8 30-8 60-8 30 8 60 8 30-8 60-8 30 8 60 8" stroke="#ffd500" stroke-opacity=".25" stroke-width="2"/>
+        </svg>
+      </a>
+      <a href="#contact" class="svc rv">
+        <span class="num">02</span>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></div>
+        <h3 data-i="s2.t"></h3><p data-i="s2.d"></p>
+      </a>
+      <a href="#contact" class="svc rv">
+        <span class="num">03</span>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="13" rx="3"/><path d="M5 10h14M9 20l-2 2M15 20l2 2M9 16v4M15 16v4"/><circle cx="9" cy="13" r=".8" fill="currentColor"/><circle cx="15" cy="13" r=".8" fill="currentColor"/></svg></div>
+        <h3 data-i="s3.t"></h3><p data-i="s3.d"></p>
+      </a>
+      <a href="#contact" class="svc rv">
+        <span class="num">04</span>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 6h14v10H1zM15 10h4l3 3v3h-7"/><circle cx="5.5" cy="18" r="2"/><circle cx="18.5" cy="18" r="2"/></svg></div>
+        <h3 data-i="s4.t"></h3><p data-i="s4.d"></p>
+      </a>
+      <a href="#contact" class="svc rv">
+        <span class="num">05</span>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
+        <h3 data-i="s5.t"></h3><p data-i="s5.d"></p>
+      </a>
+      <a href="#contact" class="svc wide rv">
+        <span class="num">06</span>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 20h20z"/><path d="M12 9v5M12 17.5v.5"/></svg></div>
+        <h3 data-i="s6.t"></h3><p data-i="s6.d"></p>
+        <div class="tags"><i>ADR 1–9</i><i data-i="s6.tag1"></i><i data-i="s6.tag2"></i></div>
+      </a>
+      <a href="#hubs" class="svc wide rv">
+        <span class="num">07</span>
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-5 9 5v12"/><path d="M7 21v-8h10v8M7 17h10"/></svg></div>
+        <h3 data-i="s7.t"></h3><p data-i="s7.d"></p>
+        <div class="tags"><i>T1</i><i>EX / IM</i><i data-i="s7.tag"></i></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CHINA -> GDANSK -->
+<section class="light" id="china">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv" data-i="cn.eyebrow"></span><h2 class="rv" data-i="cn.title"></h2></div>
+      <p class="rv" data-i="cn.sub"></p>
+    </div>
+    <div class="timeline">
+      <div class="step rv"><div class="dot">01</div><h4 data-i="cn.1t"></h4><p data-i="cn.1d"></p></div>
+      <div class="step rv"><div class="dot">02</div><h4 data-i="cn.2t"></h4><p data-i="cn.2d"></p></div>
+      <div class="step rv"><div class="dot">03</div><h4 data-i="cn.3t"></h4><p data-i="cn.3d"></p></div>
+      <div class="step rv"><div class="dot">04</div><h4 data-i="cn.4t"></h4><p data-i="cn.4d"></p></div>
+      <div class="step rv"><div class="dot">05</div><h4 data-i="cn.5t"></h4><p data-i="cn.5d"></p></div>
+      <div class="step rv"><div class="dot">06</div><h4 data-i="cn.6t"></h4><p data-i="cn.6d"></p></div>
+    </div>
+    <div class="perks">
+      <div class="perk rv"><b data-i="pk.1t"></b><p data-i="pk.1d"></p></div>
+      <div class="perk rv"><b data-i="pk.2t"></b><p data-i="pk.2d"></p></div>
+      <div class="perk rv"><b data-i="pk.3t"></b><p data-i="pk.3d"></p></div>
+    </div>
+    <div class="ports rv">
+      <span>🇨🇳 Shanghai</span><span>🇨🇳 Ningbo</span><span>🇨🇳 Qingdao</span><span>🇨🇳 Shenzhen</span><span>🇻🇳 Ho Chi Minh</span><span>🇰🇷 Busan</span><span>🇺🇸 East / West Coast</span><span>🇳🇱 Rotterdam</span><span>🇩🇪 Hamburg</span><span>🇧🇪 Antwerp</span><span>🇵🇱 Gdańsk</span><span>🇵🇱 Gdynia</span>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="about" style="padding-bottom:60px">
+  <div class="wrap">
+    <div class="stats rv">
+      <div class="stat"><b><span class="cnt" data-to="10">0</span>+</b><span data-i="st.1"></span></div>
+      <div class="stat"><b><span class="cnt" data-to="3000">0</span>+</b><span data-i="st.2"></span></div>
+      <div class="stat"><b><span class="cnt" data-to="10000">0</span></b><span data-i="st.3"></span></div>
+      <div class="stat"><b><span class="cnt" data-to="95">0</span>%</b><span data-i="st.4"></span></div>
+      <div class="stat"><b>3</b><span data-i="st.5"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section style="padding-top:60px">
+  <div class="wrap why">
+    <div>
+      <span class="eyebrow rv" data-i="why.eyebrow"></span>
+      <h2 class="rv" style="font-size:clamp(26px,3vw,42px);margin:16px 0 40px" data-i="why.title"></h2>
+      <div class="why-list">
+        <div class="why-item rv"><div class="n">01</div><div><h4 data-i="w.1t"></h4><p data-i="w.1d"></p></div></div>
+        <div class="why-item rv"><div class="n">02</div><div><h4 data-i="w.2t"></h4><p data-i="w.2d"></p></div></div>
+        <div class="why-item rv"><div class="n">03</div><div><h4 data-i="w.3t"></h4><p data-i="w.3d"></p></div></div>
+        <div class="why-item rv"><div class="n">04</div><div><h4 data-i="w.4t"></h4><p data-i="w.4d"></p></div></div>
+        <div class="why-item rv"><div class="n">05</div><div><h4 data-i="w.5t"></h4><p data-i="w.5d"></p></div></div>
+        <div class="why-item rv"><div class="n">06</div><div><h4 data-i="w.6t"></h4><p data-i="w.6d"></p></div></div>
+      </div>
+    </div>
+    <div class="why-visual rv">
+      <span class="eyebrow" data-i="ab.eyebrow"></span>
+      <h3 data-i="ab.title"></h3>
+      <p data-i="ab.p1"></p><br>
+      <p data-i="ab.p2"></p>
+      <div class="quote-card"><span class="live"></span><div><b data-i="ab.live"></b><small data-i="ab.liveSub"></small></div></div>
+      <div class="chips" style="margin-top:22px"><span>🇵🇱 Gdańsk</span><span>🇺🇦 Ukraine</span><span>🇺🇸 Miami</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- HUBS -->
+<section id="hubs" style="padding-top:20px">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv" data-i="hub.eyebrow"></span><h2 class="rv" data-i="hub.title"></h2></div>
+      <p class="rv" data-i="hub.sub"></p>
+    </div>
+    <div class="hubs">
+      <div class="hub-main rv">
+        <svg class="cranes" viewBox="0 0 200 160" fill="none" stroke="#fff" stroke-width="4"><path d="M30 160V30h10v130M40 30h120M40 50l40-20M150 30v30M140 60h20v14h-20zM100 160V80h10v80M110 80h70M180 80v20"/></svg>
+        <div class="big">10 000 m²</div>
+        <p data-i="hub.main"></p>
+      </div>
+      <div class="hub-list">
+        <div class="hub-box rv"><h4 data-i="hub.wh"></h4><div class="chips"><span class="hl">Gdańsk</span><span>Warszawa</span><span>Odesa</span><span>Rivne</span><span>Lviv</span></div></div>
+        <div class="hub-box rv"><h4 data-i="hub.rail"></h4><div class="chips"><span>Małaszewicze PL</span><span>Sławków PL</span><span>Khmelnytskyi UA</span><span>Klevan UA</span><span>Ternopil UA</span><span>Vyshneve UA</span></div></div>
+        <div class="hub-box rv"><h4 data-i="hub.fleet"></h4><div class="chips"><span data-i="fl.1"></span><span data-i="fl.2"></span><span data-i="fl.3"></span><span data-i="fl.4"></span><span>7.7 + 7.7 m</span></div></div>
+      </div>
+    </div>
+    <div class="wh-services">
+      <div class="rv" data-i="whs.1"></div><div class="rv" data-i="whs.2"></div><div class="rv" data-i="whs.3"></div><div class="rv" data-i="whs.4"></div>
+      <div class="rv" data-i="whs.5"></div><div class="rv" data-i="whs.6"></div><div class="rv" data-i="whs.7"></div><div class="rv" data-i="whs.8"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section style="padding-top:40px">
+  <div class="wrap">
+    <div class="head"><div><span class="eyebrow rv" data-i="pr.eyebrow"></span><h2 class="rv" data-i="pr.title"></h2></div></div>
+    <div class="process">
+      <div class="proc rv"><h4 data-i="pr.1t"></h4><p data-i="pr.1d"></p></div>
+      <div class="proc rv"><h4 data-i="pr.2t"></h4><p data-i="pr.2d"></p></div>
+      <div class="proc rv"><h4 data-i="pr.3t"></h4><p data-i="pr.3d"></p></div>
+      <div class="proc rv"><h4 data-i="pr.4t"></h4><p data-i="pr.4d"></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="light">
+  <div class="wrap">
+    <div class="head"><div><span class="eyebrow rv" data-i="rv.eyebrow"></span><h2 class="rv" data-i="rv.title"></h2></div></div>
+    <div class="reviews">
+      <div class="rev rv"><div class="stars">★★★★★</div><h4 data-i="r1.t"></h4><p data-i="r1.d"></p><div class="who"><div class="av">ІК</div><div><b data-i="r1.n"></b><small data-i="r1.r"></small></div></div></div>
+      <div class="rev rv"><div class="stars">★★★★★</div><h4 data-i="r2.t"></h4><p data-i="r2.d"></p><div class="who"><div class="av">АЛ</div><div><b data-i="r2.n"></b><small data-i="r2.r"></small></div></div></div>
+      <div class="rev rv"><div class="stars">★★★★★</div><h4 data-i="r3.t"></h4><p data-i="r3.d"></p><div class="who"><div class="av">ТГ</div><div><b data-i="r3.n"></b><small data-i="r3.r"></small></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap faq">
+    <div><span class="eyebrow rv">FAQ</span><h2 class="rv" style="font-size:clamp(26px,3vw,42px);margin-top:16px" data-i="faq.title"></h2></div>
+    <div class="faq-list">
+      <details class="rv" open><summary data-i="q1"></summary><p data-i="a1"></p></details>
+      <details class="rv"><summary data-i="q2"></summary><p data-i="a2"></p></details>
+      <details class="rv"><summary data-i="q3"></summary><p data-i="a3"></p></details>
+      <details class="rv"><summary data-i="q4"></summary><p data-i="a4"></p></details>
+      <details class="rv"><summary data-i="q5"></summary><p data-i="a5"></p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="padding-top:0">
+  <div class="wrap">
+    <div class="contact rv">
+      <div class="contact-info">
+        <span class="eyebrow" data-i="ct.eyebrow"></span>
+        <h2 data-i="ct.title"></h2>
+        <p data-i="ct.sub"></p>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg></div><div><small data-i="ct.phone"></small><b><a href="tel:+48507303813">+48 507 303 813</a></b></div></div>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></div><div><small>Email</small><b><a href="mailto:info@lymbridge.eu">info@lymbridge.eu</a></b></div></div>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><small data-i="ct.office"></small><b><a href="https://maps.google.com/?q=aleja+Grunwaldzka+163,+80-266+Gdańsk" target="_blank" rel="noopener">al. Grunwaldzka 163, 80-266 Gdańsk</a></b></div></div>
+        <div class="ci"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div><small data-i="ct.hours"></small><b data-i="ct.hoursV"></b></div></div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/company/lymbridge-logistics" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a>
+          <a href="https://www.facebook.com/LymbridgeLogistics/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6c0-.9.6-1 1-1h3V1h-4c-3.3 0-4 2.4-4 4v3H7v4h3v11h4V12h3.4l.6-4z"/></svg></a>
+          <a href="https://www.instagram.com/lymbridge.pl/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+      <form id="qform">
+        <h3 data-i="f.title"></h3>
+        <div class="modes">
+          <label><input type="radio" name="mode" value="Sea" checked><span data-i="m.sea"></span></label>
+          <label><input type="radio" name="mode" value="Air"><span data-i="m.air"></span></label>
+          <label><input type="radio" name="mode" value="Rail"><span data-i="m.rail"></span></label>
+          <label><input type="radio" name="mode" value="Road"><span data-i="m.road"></span></label>
+          <label><input type="radio" name="mode" value="Warehouse"><span data-i="m.wh"></span></label>
+        </div>
+        <div class="field"><label data-i="f.from"></label><input name="from" data-ph="f.fromPh"></div>
+        <div class="field"><label data-i="f.to"></label><input name="to" data-ph="f.toPh"></div>
+        <div class="field"><label data-i="f.name"></label><input name="name" required></div>
+        <div class="field"><label data-i="f.company"></label><input name="company"></div>
+        <div class="field"><label>Email *</label><input name="email" type="email" required></div>
+        <div class="field"><label data-i="f.phone"></label><input name="phone" type="tel"></div>
+        <div class="field full"><label data-i="f.msg"></label><textarea name="msg" data-ph="f.msgPh"></textarea></div>
+        <button class="btn btn-primary" type="submit"><span data-i="f.send"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="note" data-i="f.note"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="#top" class="logo"><span class="logo-mark"><svg viewBox="30 40 1350 450" width="30" height="10" aria-hidden="true"><rect x="49" y="320" width="54" height="155" rx="27" fill="#BC133E"/><rect x="205" y="204" width="54" height="271" rx="27" fill="#BC133E"/><rect x="361" y="56" width="54" height="419" rx="27" fill="#BC133E"/><rect x="521" y="204" width="54" height="271" rx="27" fill="#002664"/><rect x="677" y="320" width="54" height="155" rx="27" fill="#002664"/><rect x="833" y="204" width="54" height="271" rx="27" fill="#005BBB"/><rect x="994" y="56" width="54" height="419" rx="27" fill="#005BBB"/><rect x="1151" y="204" width="54" height="271" rx="27" fill="#FFD500"/><rect x="1307" y="320" width="54" height="155" rx="27" fill="#FFD500"/></svg></span><span class="wm">LYMBRIDGE<small>LOGISTICS</small></span></a>
+        <p data-i="ft.about"></p>
+      </div>
+      <div><h5 data-i="nav.services"></h5><ul><li><a href="#china" data-i="s1.t"></a></li><li><a href="#services" data-i="s2.t"></a></li><li><a href="#services" data-i="s3.t"></a></li><li><a href="#services" data-i="s4.t"></a></li><li><a href="#services" data-i="s5.t"></a></li></ul></div>
+      <div><h5 data-i="ft.company"></h5><ul><li><a href="#about" data-i="nav.about"></a></li><li><a href="#hubs" data-i="nav.warehouse"></a></li><li><a href="#faq" data-i="nav.faq"></a></li><li><a href="#contact" data-i="nav.contact"></a></li></ul></div>
+      <div><h5 data-i="nav.contact"></h5><ul><li><a href="tel:+48507303813">+48 507 303 813</a></li><li><a href="mailto:info@lymbridge.eu">info@lymbridge.eu</a></li><li>al. Grunwaldzka 163<br>80-266 Gdańsk, Polska</li></ul></div>
+    </div>
+    <div class="copy"><span>© <span id="yr"></span> Lymbridge Logistics</span><span data-i="ft.tag"></span></div>
+  </div>
+</footer>
+
+<a href="#contact" class="btn btn-primary float" id="float" data-i="cta.rate"></a>
+
+<script>
+var I18N={
+uk:{
+'meta.title':'Lymbridge Logistics — міжнародні перевезення вантажів',
+'nav.services':'Послуги','nav.sea':'Китай → Гданськ','nav.warehouse':'Склади','nav.about':'Про нас','nav.faq':'FAQ','nav.contact':'Контакти',
+'cta.rate':'Запросити ставку','cta.calc':'Розрахувати вартість','cta.services':'Наші послуги',
+'hero.badge':'Власна ліцензія NVOCC · офіси в Польщі, Україні та США',
+'hero.title':'Ваш надійний партнер у <em>міжнародній доставці</em> вантажів',
+'hero.lead':'Море, авіа, залізниця та авто — з Азії, Америки та Європи до Гданська і далі в Україну та ЄС. Документи, митниця і доставка «від дверей до дверей».',
+'hs.years':'років досвіду команди','hs.cont':'контейнерів перевезено','hs.react':'середній час відповіді','hs.min':'15 хв',
+'svc.eyebrow':'Послуги','svc.title':'Повний цикл логістики — одним партнером',
+'svc.sub':'Підбираємо маршрут і вид транспорту під тип вантажу, терміни та бюджет. Без шаблонів.',
+'s1.t':'Морські перевезення','s1.d':'FCL та LCL з Китаю, В’єтнаму, Кореї та США до Гданська й Гдині. Прямі домовленості з лініями, власні HBL, забір вантажу у постачальника на умовах EXW.','s1.tag':'Door-to-door',
+'s2.t':'Авіаперевезення','s2.d':'Термінові вантажі з Китаю, США, Туреччини та ОАЕ. Next Flight Out, DGR і температурні вантажі.',
+'s3.t':'Залізниця','s3.d':'Контейнери 20′ і 40′ між Китаєм, Польщею, Україною та ЄС. Перевантаження авто ↔ залізниця.',
+'s4.t':'Автоперевезення','s4.d':'Україна — Польща, по Польщі та ЄС. Тенти, рефи, контейнеровози, низькорамні трали, охорона вантажу.',
+'s5.t':'Збірні вантажі','s5.d':'Платите лише за свій обсяг. Регулярні відправки з Китаю, США та Європи.',
+'s6.t':'Негабаритні та небезпечні вантажі','s6.d':'Там, де інші відмовляються, — ми знаходимо рішення. Дозволи лінії, порту й дорожніх служб, супровід і доставка одержувачу.','s6.tag1':'Спецтехніка','s6.tag2':'Важковаговики',
+'s7.t':'Склад, перетарка та митниця','s7.d':'Власний перевантажувальний майданчик у Гданську, зберігання під митним контролем, реекспорт, митне оформлення.','s7.tag':'Перетарка в Гданську',
+'cn.eyebrow':'Головний напрямок','cn.title':'Китай → Гданськ «під ключ»',
+'cn.sub':'Беремо на себе весь ланцюг: від складу постачальника в Китаї до вашого складу в Польщі, Україні чи ЄС.',
+'cn.1t':'Забір EXW','cn.1d':'Забираємо вантаж зі складу постачальника','cn.2t':'Порт відправлення','cn.2d':'Завантаження, експортні документи','cn.3t':'Морський фрахт','cn.3d':'FCL / LCL, власний HBL','cn.4t':'Гданськ / Гдиня','cn.4d':'Вивантаження та обробка в порту','cn.5t':'Митниця · T1','cn.5d':'Оформлення або транзит, перетарка','cn.6t':'Доставка','cn.6d':'Авто чи залізницею до дверей',
+'pk.1t':'Власна NVOCC-ліцензія','pk.1d':'Самі оформлюємо домашні коносаменти (HBL) і пропонуємо тарифи без посередників.',
+'pk.2t':'Прямі контракти з лініями','pk.2d':'Конкурентні ставки та місце на судні навіть у високий сезон.',
+'pk.3t':'Польська команда в порту','pk.3d':'Контроль вантажу на місці в Гданську та Гдині — від вивантаження до видачі.',
+'st.1':'років досвіду в міжнародній логістиці','st.2':'контейнерів перевезено','st.3':'м² складських площ','st.4':'клієнтів стають постійними','st.5':'країни з офісами: PL · UA · US',
+'why.eyebrow':'Чому Lymbridge','why.title':'Не просто експедитор — партнер, що допомагає бізнесу рости',
+'w.1t':'Досвід','w.1d':'Команда логістів, митників і топменеджерів з досвідом понад 10 років у мультимодальних перевезеннях.',
+'w.2t':'Надійність','w.2d':'Власні склади й транспорт — контроль на кожному етапі. Вантаж застрахований на весь маршрут.',
+'w.3t':'Персональний менеджер','w.3d':'Одна людина веде вашу відправку від запиту до доставки та завжди на зв’язку.',
+'w.4t':'Прозорість','w.4d':'Зрозумілі тарифи без прихованих платежів і відстеження вантажу на всіх етапах.',
+'w.5t':'Гнучкі умови оплати','w.5d':'Кредитні програми та відтермінування для постійних клієнтів.',
+'w.6t':'Нестандартні задачі','w.6d':'Швидко будуємо мультимодальні маршрути під складні вантажі та ринкові зміни.',
+'ab.eyebrow':'Про нас','ab.title':'Міжнародна команда з Польщі, України, США, Німеччини та Туреччини',
+'ab.p1':'Lymbridge Logistics — молодий бренд із досвідченою командою. Наші експерти запускали логістичні рішення для провідних компаній регіону.',
+'ab.p2':'Працюємо з ЄС, США, Східною Європою та Азією і гнучко перемикаємось між видами транспорту, коли змінюється ринок.',
+'ab.live':'Менеджер онлайн','ab.liveSub':'Відповідаємо в середньому до 15 хвилин · Пн–Пт 9:00–18:00',
+'hub.eyebrow':'Склади та інфраструктура','hub.title':'Хаби там, де проходять ваші вантажі',
+'hub.sub':'Склади класу A, власний майданчик для перевантаження в Гданську та партнерські склади по всій Польщі й Україні.',
+'hub.main':'складських площ: склади класу A, зберігання під митним контролем, фарма-зона й температурний режим.',
+'hub.wh':'Складські хаби','hub.rail':'Прямий доступ до залізничних станцій','hub.fleet':'Автопарк',
+'fl.1':'Тенти','fl.2':'Рефи з Genset','fl.3':'Контейнеровози','fl.4':'Низькорамні трали',
+'whs.1':'Перетарка','whs.2':'Митний склад','whs.3':'Реекспорт','whs.4':'Палетизація','whs.5':'Пакування','whs.6':'Консолідація LCL/FCL','whs.7':'Контроль якості','whs.8':'Митне оформлення',
+'pr.eyebrow':'Як ми працюємо','pr.title':'Від запиту до доставки — 4 кроки',
+'pr.1t':'Заявка','pr.1d':'Залиште запит на сайті, телефоном або email: що, звідки, куди.',
+'pr.2t':'Розрахунок','pr.2d':'Підбираємо маршрут і надсилаємо пропозицію — зазвичай протягом години.',
+'pr.3t':'Організація','pr.3d':'Букінг, документи, митниця та страхування — беремо на себе.',
+'pr.4t':'Доставка','pr.4d':'Відстеження на кожному етапі і доставка до дверей одержувача.',
+'rv.eyebrow':'Відгуки','rv.title':'Що кажуть наші клієнти',
+'r1.t':'Відмінна координація','r1.d':'Компанія працює чітко й оперативно, а всі питання вирішуються дуже швидко.','r1.n':'Ірина Коваль','r1.r':'Керівник відділу закупівель',
+'r2.t':'Персональний підхід','r2.d':'Lymbridge пропонує рішення саме під наші задачі, а не типові шаблони.','r2.n':'Андрій Левченко','r2.r':'Операційний менеджер',
+'r3.t':'Надійність та комунікація','r3.d':'Доставка вчасно і прозора комунікація на кожному етапі.','r3.n':'Тетяна Грицак','r3.r':'Менеджер з логістики',
+'faq.title':'Часті запитання',
+'q1':'Як розраховується вартість доставки?','a1':'Вартість залежить від ваги, обсягу, маршруту та виду транспорту. Надішліть заявку — і ми підготуємо точний розрахунок.',
+'q2':'Скільки триває доставка?','a2':'Залежить від маршруту й виду транспорту. Ми запропонуємо кілька варіантів — швидший або вигідніший.',
+'q3':'Чи можна відстежувати вантаж?','a3':'Так, відстеження доступне на всіх етапах перевезення, а менеджер повідомляє про ключові події.',
+'q4':'Чи займаєтесь ви митним оформленням?','a4':'Так: митне оформлення, документи, транзит T1, процедури EX/IM та зберігання на митному складі.',
+'q5':'Чи можна застрахувати вантаж?','a5':'Так, ми страхуємо вантаж на весь маршрут — від складу відправника до одержувача.',
+'ct.eyebrow':'Контакти','ct.title':'Готові обговорити ваш вантаж?','ct.sub':'Залиште заявку — менеджер зв’яжеться з вами найближчим часом і підготує розрахунок.',
+'ct.phone':'Телефон','ct.office':'Офіс у Гданську','ct.hours':'Графік роботи','ct.hoursV':'Пн–Пт, 9:00–18:00',
+'f.title':'Запит ставки','m.sea':'Море','m.air':'Авіа','m.rail':'Залізниця','m.road':'Авто','m.wh':'Склад',
+'f.from':'Звідки','f.fromPh':'Напр. Ningbo, Китай','f.to':'Куди','f.toPh':'Напр. Гданськ / Київ','f.name':'Ім’я *','f.company':'Компанія','f.phone':'Телефон','f.msg':'Вантаж','f.msgPh':'Тип вантажу, вага/обсяг, кількість контейнерів, дата готовності…',
+'f.send':'Надіслати запит','f.note':'Запит відкриється у вашій пошті та надійде на info@lymbridge.eu',
+'ft.about':'Міжнародна логістика: море, авіа, залізниця, авто, склади та митниця. Офіси в Польщі, Україні та США.','ft.company':'Компанія','ft.tag':'Гданськ · Україна · Маямі'
+},
+en:{
+'meta.title':'Lymbridge Logistics — international freight forwarding',
+'nav.services':'Services','nav.sea':'China → Gdańsk','nav.warehouse':'Warehouses','nav.about':'About','nav.faq':'FAQ','nav.contact':'Contact',
+'cta.rate':'Request a rate','cta.calc':'Get a quote','cta.services':'Our services',
+'hero.badge':'Own NVOCC licence · offices in Poland, Ukraine and the USA',
+'hero.title':'Your reliable partner in <em>international</em> cargo delivery',
+'hero.lead':'Sea, air, rail and road — from Asia, the Americas and Europe to Gdańsk and on to Ukraine and the EU. Documents, customs and door-to-door delivery included.',
+'hs.years':'years of team experience','hs.cont':'containers shipped','hs.react':'average response time','hs.min':'15 min',
+'svc.eyebrow':'Services','svc.title':'Full-cycle logistics from a single partner',
+'svc.sub':'We match the route and mode of transport to your cargo, deadline and budget. No templates.',
+'s1.t':'Sea freight','s1.d':'FCL and LCL from China, Vietnam, Korea and the USA to Gdańsk and Gdynia. Direct carrier agreements, our own HBLs and EXW pickup at the supplier.','s1.tag':'Door-to-door',
+'s2.t':'Air freight','s2.d':'Urgent cargo from China, the USA, Turkey and the UAE. Next Flight Out, DGR and temperature-controlled cargo.',
+'s3.t':'Rail freight','s3.d':'20′ and 40′ containers between China, Poland, Ukraine and the EU. Road ↔ rail transshipment.',
+'s4.t':'Road freight','s4.d':'Ukraine — Poland, domestic Poland and the EU. Curtainsiders, reefers, container trucks, lowbeds and cargo escort.',
+'s5.t':'LCL / groupage','s5.d':'Pay only for your volume. Regular departures from China, the USA and Europe.',
+'s6.t':'Oversized & dangerous cargo','s6.d':'Where others say no, we find a solution. Carrier, port and road permits, escort and delivery to the consignee.','s6.tag1':'Heavy machinery','s6.tag2':'Heavy lift',
+'s7.t':'Warehouse, transloading & customs','s7.d':'Our own transshipment yard in Gdańsk, bonded storage, re-export and customs clearance.','s7.tag':'Transloading in Gdańsk',
+'cn.eyebrow':'Core lane','cn.title':'China → Gdańsk, fully handled',
+'cn.sub':'We take care of the whole chain: from your supplier’s warehouse in China to your door in Poland, Ukraine or the EU.',
+'cn.1t':'EXW pickup','cn.1d':'Collection from the supplier’s warehouse','cn.2t':'Port of loading','cn.2d':'Loading and export documents','cn.3t':'Ocean freight','cn.3d':'FCL / LCL, our own HBL','cn.4t':'Gdańsk / Gdynia','cn.4d':'Discharge and port handling','cn.5t':'Customs · T1','cn.5d':'Clearance or transit, transloading','cn.6t':'Delivery','cn.6d':'By road or rail to your door',
+'pk.1t':'Own NVOCC licence','pk.1d':'We issue our own house bills of lading (HBL) and quote rates without middlemen.',
+'pk.2t':'Direct carrier contracts','pk.2d':'Competitive rates and vessel space even in peak season.',
+'pk.3t':'Polish team at the port','pk.3d':'On-site cargo control in Gdańsk and Gdynia — from discharge to release.',
+'st.1':'years in international logistics','st.2':'containers shipped','st.3':'m² of warehouse space','st.4':'of clients come back','st.5':'countries with offices: PL · UA · US',
+'why.eyebrow':'Why Lymbridge','why.title':'More than a forwarder — a partner that helps your business grow',
+'w.1t':'Experience','w.1d':'Logisticians, customs specialists and managers with 10+ years in multimodal transport.',
+'w.2t':'Reliability','w.2d':'Own warehouses and vehicles mean control at every stage. Cargo insured for the whole route.',
+'w.3t':'Dedicated manager','w.3d':'One person handles your shipment from enquiry to delivery and is always reachable.',
+'w.4t':'Transparency','w.4d':'Clear rates with no hidden fees, and tracking at every stage.',
+'w.5t':'Flexible payment terms','w.5d':'Credit programmes and deferred payment for regular clients.',
+'w.6t':'Non-standard tasks','w.6d':'We quickly build multimodal routes for complex cargo and changing markets.',
+'ab.eyebrow':'About us','ab.title':'An international team from Poland, Ukraine, the USA, Germany and Turkey',
+'ab.p1':'Lymbridge Logistics is a young brand with a seasoned team. Our experts have launched logistics solutions for leading companies in the region.',
+'ab.p2':'We operate across the EU, the USA, Eastern Europe and Asia, and switch between modes of transport as the market changes.',
+'ab.live':'A manager is online','ab.liveSub':'Average reply within 15 minutes · Mon–Fri 9:00–18:00',
+'hub.eyebrow':'Warehouses & infrastructure','hub.title':'Hubs where your cargo actually moves',
+'hub.sub':'Class A warehouses, our own transshipment yard in Gdańsk and partner warehouses across Poland and Ukraine.',
+'hub.main':'of warehouse space: Class A facilities, bonded storage, a pharma zone and temperature control.',
+'hub.wh':'Warehouse hubs','hub.rail':'Direct access to rail stations','hub.fleet':'Fleet',
+'fl.1':'Curtainsiders','fl.2':'Reefers with Genset','fl.3':'Container trucks','fl.4':'Lowbeds',
+'whs.1':'Transloading','whs.2':'Bonded warehouse','whs.3':'Re-export','whs.4':'Palletising','whs.5':'Packing','whs.6':'LCL/FCL consolidation','whs.7':'Quality control','whs.8':'Customs clearance',
+'pr.eyebrow':'How we work','pr.title':'From enquiry to delivery in 4 steps',
+'pr.1t':'Enquiry','pr.1d':'Send a request via the site, phone or email: what, from where, to where.',
+'pr.2t':'Quote','pr.2d':'We pick the route and send an offer — usually within an hour.',
+'pr.3t':'Execution','pr.3d':'Booking, documents, customs and insurance — all on us.',
+'pr.4t':'Delivery','pr.4d':'Tracking at every stage and delivery to the consignee’s door.',
+'rv.eyebrow':'Reviews','rv.title':'What our clients say',
+'r1.t':'Excellent coordination','r1.d':'The team works clearly and fast, and every issue gets resolved quickly.','r1.n':'Iryna Koval','r1.r':'Head of Procurement',
+'r2.t':'Personal approach','r2.d':'Lymbridge offers solutions built for our tasks, not standard templates.','r2.n':'Andrii Levchenko','r2.r':'Operations Manager',
+'r3.t':'Reliability & communication','r3.d':'On-time delivery and transparent communication at every stage.','r3.n':'Tetiana Hrytsak','r3.r':'Logistics Manager',
+'faq.title':'Frequently asked questions',
+'q1':'How is the delivery cost calculated?','a1':'It depends on weight, volume, route and mode of transport. Send us a request and we will prepare an exact quote.',
+'q2':'How long does delivery take?','a2':'It depends on the route and mode. We will offer several options — faster or more economical.',
+'q3':'Can I track my cargo?','a3':'Yes, tracking is available at every stage, and your manager keeps you posted on key events.',
+'q4':'Do you handle customs clearance?','a4':'Yes: customs clearance, documents, T1 transit, EX/IM procedures and bonded storage.',
+'q5':'Can the cargo be insured?','a5':'Yes, we insure cargo for the entire route — from the shipper’s warehouse to the consignee.',
+'ct.eyebrow':'Contact','ct.title':'Ready to discuss your shipment?','ct.sub':'Leave a request and a manager will contact you shortly with a quote.',
+'ct.phone':'Phone','ct.office':'Office in Gdańsk','ct.hours':'Working hours','ct.hoursV':'Mon–Fri, 9:00–18:00',
+'f.title':'Request a rate','m.sea':'Sea','m.air':'Air','m.rail':'Rail','m.road':'Road','m.wh':'Warehouse',
+'f.from':'From','f.fromPh':'e.g. Ningbo, China','f.to':'To','f.toPh':'e.g. Gdańsk / Kyiv','f.name':'Name *','f.company':'Company','f.phone':'Phone','f.msg':'Cargo','f.msgPh':'Cargo type, weight/volume, number of containers, ready date…',
+'f.send':'Send request','f.note':'Your email app will open and the request goes to info@lymbridge.eu',
+'ft.about':'International logistics: sea, air, rail, road, warehousing and customs. Offices in Poland, Ukraine and the USA.','ft.company':'Company','ft.tag':'Gdańsk · Ukraine · Miami'
+},
+pl:{
+'meta.title':'Lymbridge Logistics — międzynarodowy transport i spedycja',
+'nav.services':'Usługi','nav.sea':'Chiny → Gdańsk','nav.warehouse':'Magazyny','nav.about':'O nas','nav.faq':'FAQ','nav.contact':'Kontakt',
+'cta.rate':'Zapytaj o stawkę','cta.calc':'Wyceń transport','cta.services':'Nasze usługi',
+'hero.badge':'Własna licencja NVOCC · biura w Polsce, Ukrainie i USA',
+'hero.title':'Twój niezawodny partner w <em>międzynarodowym</em> transporcie ładunków',
+'hero.lead':'Morze, lotnictwo, kolej i drogi — z Azji, Ameryki i Europy do Gdańska, dalej do Ukrainy i UE. Dokumenty, odprawa celna i dostawa door-to-door.',
+'hs.years':'lat doświadczenia zespołu','hs.cont':'przewiezionych kontenerów','hs.react':'średni czas odpowiedzi','hs.min':'15 min',
+'svc.eyebrow':'Usługi','svc.title':'Pełna logistyka u jednego partnera',
+'svc.sub':'Dobieramy trasę i środek transportu do ładunku, terminu i budżetu. Bez szablonów.',
+'s1.t':'Fracht morski','s1.d':'FCL i LCL z Chin, Wietnamu, Korei i USA do Gdańska i Gdyni. Bezpośrednie umowy z armatorami, własne HBL, odbiór EXW u dostawcy.','s1.tag':'Door-to-door',
+'s2.t':'Fracht lotniczy','s2.d':'Pilne ładunki z Chin, USA, Turcji i ZEA. Next Flight Out, DGR i ładunki w kontrolowanej temperaturze.',
+'s3.t':'Transport kolejowy','s3.d':'Kontenery 20′ i 40′ między Chinami, Polską, Ukrainą i UE. Przeładunek droga ↔ kolej.',
+'s4.t':'Transport drogowy','s4.d':'Ukraina — Polska, krajowy i w UE. Plandeki, chłodnie, kontenerowce, niskopodwoziowe i ochrona ładunku.',
+'s5.t':'Ładunki drobnicowe','s5.d':'Płacisz tylko za swoją objętość. Regularne wysyłki z Chin, USA i Europy.',
+'s6.t':'Ładunki ponadgabarytowe i niebezpieczne','s6.d':'Tam, gdzie inni odmawiają, my znajdujemy rozwiązanie. Zezwolenia armatora, portu i zarządców dróg, eskorta i dostawa.','s6.tag1':'Maszyny','s6.tag2':'Ciężkie ładunki',
+'s7.t':'Magazyn, przeładunek i cło','s7.d':'Własny plac przeładunkowy w Gdańsku, skład celny, reeksport i odprawa celna.','s7.tag':'Przeładunek w Gdańsku',
+'cn.eyebrow':'Główny kierunek','cn.title':'Chiny → Gdańsk pod klucz',
+'cn.sub':'Przejmujemy cały łańcuch: od magazynu dostawcy w Chinach do Twojego magazynu w Polsce, Ukrainie lub UE.',
+'cn.1t':'Odbiór EXW','cn.1d':'Odbiór z magazynu dostawcy','cn.2t':'Port załadunku','cn.2d':'Załadunek i dokumenty eksportowe','cn.3t':'Fracht morski','cn.3d':'FCL / LCL, własny HBL','cn.4t':'Gdańsk / Gdynia','cn.4d':'Rozładunek i obsługa w porcie','cn.5t':'Cło · T1','cn.5d':'Odprawa lub tranzyt, przeładunek','cn.6t':'Dostawa','cn.6d':'Drogą lub koleją pod drzwi',
+'pk.1t':'Własna licencja NVOCC','pk.1d':'Sami wystawiamy konosamenty (HBL) i oferujemy stawki bez pośredników.',
+'pk.2t':'Bezpośrednie umowy z armatorami','pk.2d':'Konkurencyjne stawki i miejsce na statku nawet w szczycie sezonu.',
+'pk.3t':'Polski zespół w porcie','pk.3d':'Kontrola ładunku na miejscu w Gdańsku i Gdyni — od rozładunku do wydania.',
+'st.1':'lat w logistyce międzynarodowej','st.2':'przewiezionych kontenerów','st.3':'m² powierzchni magazynowej','st.4':'klientów zostaje z nami','st.5':'kraje z biurami: PL · UA · US',
+'why.eyebrow':'Dlaczego Lymbridge','why.title':'Nie tylko spedytor — partner, który pomaga firmie rosnąć',
+'w.1t':'Doświadczenie','w.1d':'Logistycy, agenci celni i menedżerowie z ponad 10-letnim doświadczeniem w transporcie multimodalnym.',
+'w.2t':'Niezawodność','w.2d':'Własne magazyny i transport to kontrola na każdym etapie. Ładunek ubezpieczony na całej trasie.',
+'w.3t':'Osobisty opiekun','w.3d':'Jedna osoba prowadzi Twoją przesyłkę od zapytania do dostawy i jest zawsze dostępna.',
+'w.4t':'Przejrzystość','w.4d':'Jasne stawki bez ukrytych opłat i śledzenie ładunku na każdym etapie.',
+'w.5t':'Elastyczne płatności','w.5d':'Programy kredytowe i odroczone terminy dla stałych klientów.',
+'w.6t':'Niestandardowe zadania','w.6d':'Szybko budujemy trasy multimodalne dla trudnych ładunków i zmian na rynku.',
+'ab.eyebrow':'O nas','ab.title':'Międzynarodowy zespół z Polski, Ukrainy, USA, Niemiec i Turcji',
+'ab.p1':'Lymbridge Logistics to młoda marka z doświadczonym zespołem. Nasi eksperci wdrażali rozwiązania logistyczne dla wiodących firm w regionie.',
+'ab.p2':'Działamy w UE, USA, Europie Wschodniej i Azji, elastycznie zmieniając środki transportu, gdy zmienia się rynek.',
+'ab.live':'Opiekun jest online','ab.liveSub':'Odpowiadamy średnio w 15 minut · pn–pt 9:00–18:00',
+'hub.eyebrow':'Magazyny i infrastruktura','hub.title':'Huby tam, gdzie płyną Twoje ładunki',
+'hub.sub':'Magazyny klasy A, własny plac przeładunkowy w Gdańsku i magazyny partnerskie w całej Polsce i Ukrainie.',
+'hub.main':'powierzchni magazynowej: obiekty klasy A, skład celny, strefa farmaceutyczna i kontrola temperatury.',
+'hub.wh':'Huby magazynowe','hub.rail':'Bezpośredni dostęp do stacji kolejowych','hub.fleet':'Tabor',
+'fl.1':'Plandeki','fl.2':'Chłodnie z Genset','fl.3':'Kontenerowce','fl.4':'Niskopodwoziowe',
+'whs.1':'Przeładunek','whs.2':'Skład celny','whs.3':'Reeksport','whs.4':'Paletyzacja','whs.5':'Pakowanie','whs.6':'Konsolidacja LCL/FCL','whs.7':'Kontrola jakości','whs.8':'Odprawa celna',
+'pr.eyebrow':'Jak pracujemy','pr.title':'Od zapytania do dostawy w 4 krokach',
+'pr.1t':'Zapytanie','pr.1d':'Wyślij zapytanie przez stronę, telefon lub e-mail: co, skąd, dokąd.',
+'pr.2t':'Wycena','pr.2d':'Dobieramy trasę i wysyłamy ofertę — zwykle w ciągu godziny.',
+'pr.3t':'Realizacja','pr.3d':'Booking, dokumenty, cło i ubezpieczenie — bierzemy na siebie.',
+'pr.4t':'Dostawa','pr.4d':'Śledzenie na każdym etapie i dostawa pod drzwi odbiorcy.',
+'rv.eyebrow':'Opinie','rv.title':'Co mówią nasi klienci',
+'r1.t':'Świetna koordynacja','r1.d':'Firma działa jasno i sprawnie, a wszystkie sprawy są rozwiązywane bardzo szybko.','r1.n':'Iryna Kowal','r1.r':'Kierownik działu zakupów',
+'r2.t':'Indywidualne podejście','r2.d':'Lymbridge proponuje rozwiązania dopasowane do naszych zadań, a nie gotowe szablony.','r2.n':'Andrij Łewczenko','r2.r':'Kierownik operacyjny',
+'r3.t':'Niezawodność i komunikacja','r3.d':'Terminowe dostawy i przejrzysta komunikacja na każdym etapie.','r3.n':'Tetiana Hrycak','r3.r':'Specjalista ds. logistyki',
+'faq.title':'Najczęstsze pytania',
+'q1':'Jak liczony jest koszt transportu?','a1':'Zależy od wagi, objętości, trasy i środka transportu. Wyślij zapytanie — przygotujemy dokładną wycenę.',
+'q2':'Ile trwa dostawa?','a2':'Zależy od trasy i środka transportu. Zaproponujemy kilka wariantów — szybszy lub tańszy.',
+'q3':'Czy mogę śledzić ładunek?','a3':'Tak, śledzenie jest dostępne na każdym etapie, a opiekun informuje o kluczowych zdarzeniach.',
+'q4':'Czy zajmujecie się odprawą celną?','a4':'Tak: odprawa celna, dokumenty, tranzyt T1, procedury EX/IM i skład celny.',
+'q5':'Czy można ubezpieczyć ładunek?','a5':'Tak, ubezpieczamy ładunek na całej trasie — od magazynu nadawcy do odbiorcy.',
+'ct.eyebrow':'Kontakt','ct.title':'Porozmawiajmy o Twoim ładunku','ct.sub':'Zostaw zapytanie — opiekun wkrótce się z Tobą skontaktuje i przygotuje wycenę.',
+'ct.phone':'Telefon','ct.office':'Biuro w Gdańsku','ct.hours':'Godziny pracy','ct.hoursV':'pn–pt, 9:00–18:00',
+'f.title':'Zapytanie o stawkę','m.sea':'Morze','m.air':'Lotniczy','m.rail':'Kolej','m.road':'Drogowy','m.wh':'Magazyn',
+'f.from':'Skąd','f.fromPh':'np. Ningbo, Chiny','f.to':'Dokąd','f.toPh':'np. Gdańsk / Kijów','f.name':'Imię *','f.company':'Firma','f.phone':'Telefon','f.msg':'Ładunek','f.msgPh':'Rodzaj ładunku, waga/objętość, liczba kontenerów, data gotowości…',
+'f.send':'Wyślij zapytanie','f.note':'Otworzy się Twoja poczta, a zapytanie trafi na info@lymbridge.eu',
+'ft.about':'Logistyka międzynarodowa: morze, lotnictwo, kolej, drogi, magazyny i cło. Biura w Polsce, Ukrainie i USA.','ft.company':'Firma','ft.tag':'Gdańsk · Ukraina · Miami'
+}
+};
+</script>
+<script>
+(function(){
+  var cur='uk';
+  function setLang(l){
+    if(!I18N[l]) l='uk';
+    cur=l; var d=I18N[l];
+    document.documentElement.lang=l;
+    document.title=d['meta.title'];
+    document.querySelectorAll('[data-i]').forEach(function(el){var k=el.getAttribute('data-i'); if(d[k]!=null) el.textContent=d[k];});
+    document.querySelectorAll('[data-ih]').forEach(function(el){var k=el.getAttribute('data-ih'); if(d[k]!=null) el.innerHTML=d[k];});
+    document.querySelectorAll('[data-ph]').forEach(function(el){var k=el.getAttribute('data-ph'); if(d[k]!=null) el.placeholder=d[k];});
+    document.querySelectorAll('#lang button').forEach(function(b){b.classList.toggle('on',b.dataset.l===l)});
+    try{localStorage.setItem('lb-lang',l)}catch(e){}
+    if(location.hash.length<=1 || /^#(uk|en|pl)$/.test(location.hash)) history.replaceState(null,'','#'+l);
+  }
+  document.querySelectorAll('#lang button').forEach(function(b){b.onclick=function(){setLang(b.dataset.l)}});
+  var start=(location.hash.match(/^#(uk|en|pl)$/)||[])[1];
+  if(!start){try{start=localStorage.getItem('lb-lang')}catch(e){}}
+  if(!start){var n=(navigator.language||'').slice(0,2); start=n==='pl'?'pl':(n==='uk'||n==='ru')?'uk':n?'en':'uk';}
+  setLang(start);
+
+  // marquee
+  var ports=['Gdańsk','Shanghai','Gdynia','Ningbo','Rotterdam','Qingdao','Hamburg','Busan','Antwerp','Shenzhen','Constanța','Miami','Odesa','Barcelona','Copenhagen','Lviv'];
+  var mq=document.getElementById('mq'),h='';
+  for(var r=0;r<2;r++) ports.forEach(function(p){h+='<span>'+p+'</span>'});
+  mq.innerHTML=h;
+
+  // nav scroll + float
+  var nav=document.getElementById('nav'),fl=document.getElementById('float');
+  function onScroll(){var y=scrollY;nav.classList.toggle('scrolled',y>20);fl.classList.toggle('show',y>900 && (innerHeight+y)<document.body.scrollHeight-900);}
+  addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+  // burger
+  var menu=document.getElementById('menu');
+  document.getElementById('burger').onclick=function(){menu.classList.toggle('open')};
+  menu.querySelectorAll('a').forEach(function(a){a.onclick=function(){menu.classList.remove('open')}});
+
+  // reveal + counters
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);
+    e.target.querySelectorAll && e.target.querySelectorAll('.cnt').forEach(count);}})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay=((i%4)*70)+'ms';io.observe(el)});
+  function count(el){var to=+el.dataset.to,t0=null;function fmt(v){return v>=10000?v.toLocaleString('pl-PL'):String(v)}
+    function step(t){if(!t0)t0=t;var p=Math.min((t-t0)/1600,1);p=1-Math.pow(1-p,3);el.textContent=fmt(Math.round(to*p));if(p<1)requestAnimationFrame(step)}requestAnimationFrame(step)}
+
+  // form -> mailto
+  document.getElementById('qform').onsubmit=function(e){
+    e.preventDefault();var f=e.target,d=I18N[cur],g=function(n){return (f[n]&&f[n].value)||''};
+    var body=[d['f.from']+': '+g('from'),d['f.to']+': '+g('to'),'Mode: '+f.mode.value,d['f.name']+': '+g('name'),d['f.company']+': '+g('company'),'Email: '+g('email'),d['f.phone']+': '+g('phone'),'',g('msg')].join('\n');
+    location.href='mailto:info@lymbridge.eu?subject='+encodeURIComponent('Rate request — '+f.mode.value+' — '+g('from')+' → '+g('to'))+'&body='+encodeURIComponent(body);
+  };
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+<!-- ===== FX PACK ===== -->
+<style id="fx">
+.fx-progress{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);z-index:100;background:linear-gradient(90deg,#005bbb,#ffd500,#bc133e)}
+.fx-glow{position:fixed;left:0;top:0;width:620px;height:620px;margin:-310px 0 0 -310px;border-radius:50%;pointer-events:none;z-index:1;background:radial-gradient(circle,rgba(0,91,187,.16),transparent 62%);mix-blend-mode:screen;transition:opacity .4s;will-change:transform}
+.fx-dot{position:fixed;left:0;top:0;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#ffd500;pointer-events:none;z-index:101;transition:width .25s,height .25s,margin .25s,background .25s;mix-blend-mode:difference;will-change:transform}
+.fx-dot.big{width:54px;height:54px;margin:-27px 0 0 -27px;background:#fff}
+@media (hover:none){.fx-glow,.fx-dot{display:none}}
+.fx-spot{position:relative;isolation:isolate}
+.fx-spot::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:2;opacity:0;transition:opacity .3s;
+  background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(255,213,0,.13),transparent 45%);}
+.fx-spot:hover::before{opacity:1}
+.fx-tilt{transform-style:preserve-3d;will-change:transform;transition:transform .15s ease-out}
+.fx-w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.fx-w>span{display:inline-block;transform:translateY(105%);opacity:0;animation:fxUp .9s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes fxUp{to{transform:none;opacity:1}}
+h2.rv{clip-path:inset(0 0 100% 0);transition:clip-path 1s cubic-bezier(.2,.8,.2,1),opacity .8s,transform .8s}
+h2.rv.in{clip-path:inset(0 0 -10% 0)}
+.btn{will-change:transform}
+.btn-primary{position:relative;overflow:hidden}
+.btn-primary::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);animation:shine 4s ease-in-out infinite}
+@keyframes shine{0%,60%{left:-60%}100%{left:130%}}
+.svc .ic,.m4 .mi{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.svc:hover .ic,.m4:hover .mi{transform:rotate(-8deg) scale(1.12)}
+@media (prefers-reduced-motion:reduce){.fx-w>span{transform:none;opacity:1;animation:none}h2.rv{clip-path:none}}
+</style>
+<div class="fx-progress" id="fxp"></div><div class="fx-glow" id="fxg"></div><div class="fx-dot" id="fxd"></div>
+<script>
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches, fine=matchMedia('(hover:hover)').matches;
+  // scroll progress + parallax
+  var bar=document.getElementById('fxp'), par=[].slice.call(document.querySelectorAll('.hero-map,.mesh,.globe-wrap'));
+  function sc(){var h=document.documentElement.scrollHeight-innerHeight;bar.style.transform='scaleX('+(h>0?scrollY/h:0)+')';
+    if(!reduce)par.forEach(function(el){el.style.translate='0 '+(scrollY*0.25)+'px'});}
+  addEventListener('scroll',sc,{passive:true});sc();
+  // cursor glow + dot
+  var g=document.getElementById('fxg'),d=document.getElementById('fxd'),tx=innerWidth/2,ty=innerHeight/2,gx=tx,gy=ty;
+  if(fine&&!reduce){addEventListener('mousemove',function(e){tx=e.clientX;ty=e.clientY;d.style.transform='translate('+tx+'px,'+ty+'px)'});
+    (function loop(){gx+=(tx-gx)*.08;gy+=(ty-gy)*.08;g.style.transform='translate('+gx+'px,'+gy+'px)';requestAnimationFrame(loop)})();
+    document.addEventListener('mouseover',function(e){d.classList.toggle('big',!!e.target.closest('a,button,summary,label'))});}
+  else{g.style.display='none';d.style.display='none'}
+  // spotlight + tilt cards
+  var cards=document.querySelectorAll('.svc,.m4,.proc,.why-item,.hub-box,.perk,.rev,.qcard,.stat');
+  cards.forEach(function(c){c.classList.add('fx-spot');
+    var tilt=c.matches('.svc,.m4,.qcard,.perk,.rev'); if(tilt)c.classList.add('fx-tilt');
+    c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;
+      c.style.setProperty('--mx',x+'px');c.style.setProperty('--my',y+'px');
+      if(tilt&&!reduce){var rx=((y/r.height)-.5)*-7,ry=((x/r.width)-.5)*7;c.style.transform='perspective(900px) rotateX('+rx+'deg) rotateY('+ry+'deg) translateY(-4px)'}});
+    c.addEventListener('mouseleave',function(){if(tilt)c.style.transform=''});});
+  // magnetic buttons
+  if(fine&&!reduce)document.querySelectorAll('.btn').forEach(function(b){
+    b.addEventListener('mousemove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.18)+'px,'+((e.clientY-r.top-r.height/2)*.28)+'px)'});
+    b.addEventListener('mouseleave',function(){b.style.transform=''});});
+  // headline word reveal (re-run on language switch)
+  function split(){var h=document.querySelector('.hero h1');if(!h||reduce)return;var i=0;
+    (function walk(node){[].slice.call(node.childNodes).forEach(function(n){
+      if(n.nodeType===3){var frag=document.createDocumentFragment();n.textContent.split(/(\s+)/).forEach(function(t){
+        if(!t)return; if(/^\s+$/.test(t)){frag.appendChild(document.createTextNode(t));return}
+        var w=document.createElement('span');w.className='fx-w';var s=document.createElement('span');s.textContent=t;s.style.animationDelay=(0.15+i++*0.08)+'s';w.appendChild(s);frag.appendChild(w);});
+        n.parentNode.replaceChild(frag,n);}
+      else if(n.nodeType===1&&!n.classList.contains('fx-w'))walk(n);});})(h);}
+  split();
+  document.querySelectorAll('#lang button').forEach(function(b){b.addEventListener('click',function(){setTimeout(split,0)})});
+})();
+</script>
+<!-- ===== 3D GLOBE ===== -->
+<style>
+.globe-wrap{position:absolute;left:50%;top:600px;width:min(1200px,140vw);aspect-ratio:1;transform:translateX(-50%);pointer-events:none;z-index:0}
+.globe-wrap canvas{width:100%;height:100%;display:block}
+.heroC .wrap{position:relative;z-index:2}
+.heroC{overflow:hidden}
+@media (max-width:640px){.globe-wrap{top:640px}}
+</style>
+<script>
+(function(){
+  var hero=document.querySelector('.heroC'); if(!hero) return;
+  var wrap=document.createElement('div');wrap.className='globe-wrap';var cv=document.createElement('canvas');wrap.appendChild(cv);
+  hero.insertBefore(wrap,hero.firstChild.nextSibling);
+  var ctx=cv.getContext('2d'),DPR=Math.min(devicePixelRatio||1,2),S=0;
+  function size(){var r=wrap.getBoundingClientRect();S=r.width;cv.width=S*DPR;cv.height=S*DPR;ctx.setTransform(DPR,0,0,DPR,0,0)}
+  size();addEventListener('resize',size);
+  // fibonacci sphere dots
+  var N=2200,pts=[];for(var i=0;i<N;i++){var y=1-(i/(N-1))*2,r=Math.sqrt(1-y*y),t=i*2.399963;pts.push([Math.cos(t)*r,y,Math.sin(t)*r])}
+  function ll(lat,lon){lat*=Math.PI/180;lon*=Math.PI/180;return[Math.cos(lat)*Math.sin(lon),Math.sin(lat),Math.cos(lat)*Math.cos(lon)]}
+  var C={gda:ll(54.35,18.65),sha:ll(31.2,121.5),ngb:ll(29.9,121.6),qd:ll(36.1,120.4),bus:ll(35.1,129),mia:ll(25.8,-80.2),nyc:ll(40.7,-74),kyiv:ll(50.45,30.5),odesa:ll(46.5,30.7),hcm:ll(10.8,106.7)};
+  var routes=[['sha','gda','#ffd500'],['qd','gda','#ffd500'],['bus','gda','#5aa9ff'],['hcm','gda','#5aa9ff'],['mia','gda','#ff4d6d'],['nyc','gda','#ff4d6d'],['gda','kyiv','#ffd500'],['gda','odesa','#5aa9ff']];
+  function slerp(a,b,t){var d=Math.acos(Math.max(-1,Math.min(1,a[0]*b[0]+a[1]*b[1]+a[2]*b[2])));if(d<1e-6)return a;var s=Math.sin(d),k1=Math.sin((1-t)*d)/s,k2=Math.sin(t*d)/s;return[a[0]*k1+b[0]*k2,a[1]*k1+b[1]*k2,a[2]*k1+b[2]*k2]}
+  var rot=-0.35,tilt=0.42,t0=performance.now(),mx=0;
+  addEventListener('mousemove',function(e){mx=(e.clientX/innerWidth-.5)});
+  function proj(p){var c=Math.cos(rot),s=Math.sin(rot),x=p[0]*c+p[2]*s,z=-p[0]*s+p[2]*c,y=p[1];
+    var ct=Math.cos(tilt),st=Math.sin(tilt),y2=y*ct-z*st,z2=y*st+z*ct;var R=S*0.46;return[S/2+x*R,S/2-y2*R,z2]}
+  function frame(now){var T=(now-t0)/1000;rot=-1.0+Math.sin(T*0.12)*0.45+mx*0.3;ctx.clearRect(0,0,S,S);
+    var g=ctx.createRadialGradient(S/2,S/2,S*0.2,S/2,S/2,S*0.5);g.addColorStop(0,'rgba(0,91,187,.25)');g.addColorStop(1,'rgba(0,91,187,0)');ctx.fillStyle=g;ctx.beginPath();ctx.arc(S/2,S/2,S*0.5,0,7);ctx.fill();
+    for(var i=0;i<N;i++){var q=proj(pts[i]);if(q[2]<-0.05)continue;var a=0.22+q[2]*0.7;ctx.fillStyle='rgba(170,205,255,'+a+')';ctx.fillRect(q[0]-1,q[1]-1,2.2,2.2)}
+    ctx.save();ctx.strokeStyle='rgba(90,169,255,.45)';ctx.lineWidth=1.5;ctx.shadowColor='#5aa9ff';ctx.shadowBlur=30;ctx.beginPath();ctx.arc(S/2,S/2,S*0.46,0,7);ctx.stroke();ctx.restore();
+    ctx.lineWidth=2;
+    routes.forEach(function(r,ri){var A=C[r[0]],B=C[r[1]],seg=60,prog=((T*0.35+ri*0.17)%1.4);
+      ctx.beginPath();var vis=false;for(var k=0;k<=seg;k++){var tt=k/seg;var p=slerp(A,B,tt),h=1+Math.sin(Math.PI*tt)*0.18;p=[p[0]*h,p[1]*h,p[2]*h];var q=proj(p);
+        if(q[2]<-0.1){vis=false;continue}if(!vis){ctx.moveTo(q[0],q[1]);vis=true}else ctx.lineTo(q[0],q[1])}
+      ctx.strokeStyle=r[2]+'99';ctx.stroke();
+      var pt=Math.min(prog,1);var p=slerp(A,B,pt),h=1+Math.sin(Math.PI*pt)*0.18;var q=proj([p[0]*h,p[1]*h,p[2]*h]);
+      if(q[2]>-0.1&&prog<1){ctx.fillStyle=r[2];ctx.shadowColor=r[2];ctx.shadowBlur=14;ctx.beginPath();ctx.arc(q[0],q[1],3.2,0,7);ctx.fill();ctx.shadowBlur=0}});
+    Object.keys(C).forEach(function(k){var q=proj(C[k]);if(q[2]<0)return;var big=k==='gda';var pulse=(Math.sin(T*3)+1)/2;
+      ctx.fillStyle=big?'#ffd500':'#fff';ctx.beginPath();ctx.arc(q[0],q[1],big?5:3,0,7);ctx.fill();
+      if(big){ctx.strokeStyle='rgba(255,213,0,'+(0.6-pulse*0.5)+')';ctx.lineWidth=2;ctx.beginPath();ctx.arc(q[0],q[1],8+pulse*16,0,7);ctx.stroke();
+        ctx.font='800 15px Manrope,sans-serif';ctx.fillStyle='#fff';ctx.fillText('GDAŃSK',q[0]+12,q[1]-10)}});
+    requestAnimationFrame(frame)}
+  requestAnimationFrame(frame);
+})();
+</script>
+
+<!-- ===== FX2 PACK ===== -->
+<style id="fx2">
+@property --ang{syntax:'<angle>';initial-value:0deg;inherits:false}
+/* preloader */
+#pre{position:fixed;inset:0;z-index:300;background:#001433;display:grid;place-items:center;transition:clip-path 1s cubic-bezier(.76,0,.24,1);clip-path:inset(0 0 0 0)}
+#pre.done{clip-path:inset(0 0 100% 0)}
+.pre-in{display:flex;flex-direction:column;align-items:center;gap:22px}
+.pre-bars{display:flex;align-items:flex-end;gap:9px;height:90px}
+.pre-bars i{width:12px;border-radius:12px;background:var(--c);height:calc(var(--h)*90px);transform-origin:bottom;animation:eqb .9s ease-in-out infinite alternate}
+.pre-bars i:nth-child(2n){animation-delay:-.3s}.pre-bars i:nth-child(3n){animation-delay:-.6s}.pre-bars i:nth-child(5){animation-delay:-.15s}
+@keyframes eqb{0%{transform:scaleY(.25)}100%{transform:scaleY(1)}}
+.pre-word{font:800 22px Manrope,sans-serif;letter-spacing:.35em;color:#fff;opacity:0;animation:preW .8s .2s forwards}
+@keyframes preW{to{opacity:1;letter-spacing:.5em}}
+.pre-line{width:180px;height:2px;background:rgba(255,255,255,.12);border-radius:2px;overflow:hidden}
+.pre-line b{display:block;height:100%;width:0;background:linear-gradient(90deg,#005bbb,#ffd500);animation:preL 1.3s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes preL{to{width:100%}}
+.is-loading .fx-w>span{animation-play-state:paused}
+.is-loading body{overflow:hidden}
+/* logo equalizer */
+.logo-mark rect{transform-box:fill-box;transform-origin:50% 100%}
+.logo:hover .logo-mark rect,.logo-mark.eq rect{animation:eqb .5s ease-in-out infinite alternate}
+.logo-mark rect:nth-child(2n){animation-delay:-.2s!important}.logo-mark rect:nth-child(3n){animation-delay:-.35s!important}
+/* animated gradient borders */
+.svc.big{border:1.5px solid transparent!important;background:radial-gradient(600px 400px at 100% 0%,rgba(255,213,0,.18),transparent 60%) padding-box,linear-gradient(160deg,#003a88,#001a40) padding-box,conic-gradient(from var(--ang),#ffd500,#005bbb 25%,#bc133e 50%,#005bbb 75%,#ffd500) border-box!important;animation:spinA 6s linear infinite}
+.hero .btn-primary{box-shadow:0 0 0 0 rgba(255,213,0,.6);animation:pulseB 2.6s ease-out infinite}
+@keyframes spinA{to{--ang:360deg}}
+@keyframes pulseB{0%{box-shadow:0 0 0 0 rgba(255,213,0,.55)}70%{box-shadow:0 0 0 18px rgba(255,213,0,0)}100%{box-shadow:0 0 0 0 rgba(255,213,0,0)}}
+/* ship bob + container drop */
+.svc.big .ship{animation:bob 4.5s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px) rotate(-.6deg)}}
+.ship .box{transform-box:fill-box;opacity:0;transform:translateY(-140px)}
+.ship.drop .box{animation:drop .7s cubic-bezier(.3,1.4,.5,1) forwards}
+@keyframes drop{to{opacity:1;transform:none}}
+/* timeline ship */
+.timeline{position:relative}
+.tl-ship{position:absolute;top:8px;left:8%;width:46px;height:46px;margin-left:-23px;z-index:3;border-radius:50%;background:#ffd500;display:grid;place-items:center;box-shadow:0 10px 24px -8px rgba(0,38,100,.5);transition:left .12s linear}
+.tl-ship svg{width:24px;height:24px;color:#001433}
+.tl-ship::after{content:"";position:absolute;right:100%;top:50%;height:3px;width:var(--trail,0px);background:linear-gradient(90deg,transparent,#ffd500);transform:translateY(-50%);border-radius:3px}
+.step .dot{transition:background .4s,color .4s,border-color .4s,transform .4s}
+.step.on .dot{background:#001433;color:#ffd500;border-color:#001433;transform:scale(1.08)}
+@media (max-width:1080px){.tl-ship{display:none}}
+/* scramble */
+.scr{font-variant-ligatures:none}
+/* big footer word */
+.bigword{text-align:center;margin:70px 0 0;overflow:hidden;user-select:none}
+.bigword span{display:inline-block;font-family:Unbounded,sans-serif;font-weight:700;line-height:.95;letter-spacing:-.03em;white-space:nowrap;
+  color:transparent;background:linear-gradient(90deg,#005bbb,#ffd500 50%,#bc133e) no-repeat 0 0/var(--fill,0%) 100%,linear-gradient(rgba(255,255,255,.07),rgba(255,255,255,.07));-webkit-background-clip:text;background-clip:text}
+/* section reveal: stagger children cards */
+.bento .svc.rv,.process .proc.rv,.reviews .rev.rv{transition-duration:1s}
+@media (prefers-reduced-motion:reduce){#pre{display:none}.ship .box{opacity:1;transform:none}.svc.big,.hero .btn-primary{animation:none}}
+</style>
+<script>
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches,root=document.documentElement;
+  // preloader
+  var pre=document.getElementById('pre');
+  function finish(){if(!pre)return;pre.classList.add('done');root.classList.remove('is-loading');
+    var lm=document.querySelector('.nav .logo-mark');if(lm){lm.classList.add('eq');setTimeout(function(){lm.classList.remove('eq')},1600)}
+    setTimeout(function(){pre&&pre.remove()},1100)}
+  if(reduce)finish();else{var t0=performance.now();addEventListener('load',function(){setTimeout(finish,Math.max(0,1400-(performance.now()-t0)))});setTimeout(finish,3500)}
+  // containers drop onto ship
+  var ship=document.querySelector('.svc.big .ship');
+  if(ship){var rects=ship.querySelectorAll('g rect');for(var i=0;i<7&&i<rects.length;i++){rects[i].classList.add('box');rects[i].style.animationDelay=(0.15+[4,5,6,3,0,1,2][i]*0.12)+'s'}
+    new IntersectionObserver(function(es,o){es.forEach(function(e){if(e.isIntersecting){ship.classList.add('drop');o.disconnect()}})},{threshold:.4}).observe(ship)}
+  // timeline ship
+  var tl=document.querySelector('.timeline');
+  if(tl){var s=document.createElement('div');s.className='tl-ship';s.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l2 3h14l2-3"/><path d="M5 17V9h14v8"/><path d="M9 9V5h6v4"/></svg>';tl.appendChild(s);
+    var steps=[].slice.call(tl.querySelectorAll('.step'));
+    function upd(){var r=tl.getBoundingClientRect(),p=(innerHeight*0.85-r.top)/(innerHeight*0.55);p=Math.max(0,Math.min(1,p));
+      var L=8+p*84;s.style.left=L+'%';s.style.setProperty('--trail',Math.min(140,p*r.width*0.84)+'px');
+      steps.forEach(function(st,i){st.classList.toggle('on',p>=i/(steps.length-1)-0.02)})}
+    addEventListener('scroll',upd,{passive:true});addEventListener('resize',upd);upd()}
+  // scroll-reactive marquee
+  var mq=document.getElementById('mq');
+  if(mq&&!reduce){mq.style.animation='none';var x=0,last=scrollY,vel=0,dir=1;
+    (function loop(){var y=scrollY,d=y-last;last=y;if(d)dir=d>0?1:-1;vel+=(Math.abs(d)-vel)*0.1;
+      x-=(0.6+Math.min(vel,60)*0.25)*dir;var w=mq.scrollWidth/2;if(x<=-w)x+=w;if(x>0)x-=w;
+      mq.style.transform='translateX('+x+'px) skewX('+(-Math.min(vel,40)*0.25*dir)+'deg)';requestAnimationFrame(loop)})()}
+  // text scramble on eyebrows
+  var G='ABCDEFGHJKLMNOPQRSTUVWXYZ0123456789#%&*';
+  function scramble(el){var fin=el.textContent;if(!fin||el._scr)return;el._scr=1;var n=0,tot=fin.length*2+8;
+    var id=setInterval(function(){n++;var out='';for(var i=0;i<fin.length;i++){out+=(i<n/2||fin[i]===' ')?fin[i]:G[(Math.random()*G.length)|0]}el.textContent=out;
+      if(n>=tot){clearInterval(id);el.textContent=fin;el._scr=0}},28)}
+  if(!reduce){var eo=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){scramble(e.target);eo.unobserve(e.target)}})},{threshold:.6});
+    document.querySelectorAll('.eyebrow').forEach(function(el){el.classList.add('scr');eo.observe(el)})}
+  // big footer word filling on scroll
+  var foot=document.querySelector('footer .wrap');
+  if(foot){var bw=document.createElement('div');bw.className='bigword';bw.innerHTML='<span>LYMBRIDGE</span>';var sp=bw.firstChild;foot.insertBefore(bw,foot.querySelector('.copy'));
+    function fit(){sp.style.fontSize='100px';var k=bw.clientWidth/sp.offsetWidth;sp.style.fontSize=Math.floor(100*k*0.99)+'px'}
+    fit();addEventListener('resize',fit);document.fonts&&document.fonts.ready.then(fit);
+    function fill(){var r=bw.getBoundingClientRect(),p=(innerHeight-r.top)/(innerHeight*0.7);p=Math.max(0,Math.min(1,p));sp.style.setProperty('--fill',(p*100)+'%')}
+    addEventListener('scroll',fill,{passive:true});fill()}
+})();
+</script>
+
+</body>
+</html>
